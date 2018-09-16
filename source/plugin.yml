@@ -1,0 +1,6 @@
+main: com.luca145783.servermanager.main.Main
+name: ServerManager
+version: 0.1
+author: luca145783
+
+commands:
