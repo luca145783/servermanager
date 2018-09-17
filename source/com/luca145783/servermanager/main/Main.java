@@ -7,7 +7,7 @@ import org.bukkit.plugin.java.JavaPlugin;
 
 public class Main extends JavaPlugin {
 	
-	private static ConsoleCommandSender console = Bukkit.getConsoleSender();
+	ConsoleCommandSender console = Bukkit.getConsoleSender();
 		
 	public void onEnable() {
 		loadConfiguration();
