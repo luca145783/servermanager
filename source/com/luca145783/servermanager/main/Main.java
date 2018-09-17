@@ -5,11 +5,14 @@ import org.bukkit.ChatColor;
 import org.bukkit.command.ConsoleCommandSender;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import com.luca145783.servermanager.utils.Utils;
+
 public class Main extends JavaPlugin {
 	
-	public static ConsoleCommandSender console = Bukkit.getConsoleSender();
-	
+	private static ConsoleCommandSender console = Bukkit.getConsoleSender();
+		
 	public void onEnable() {
+		Utils.loadConfiguration();
 		console.sendMessage(ChatColor.translateAlternateColorCodes('&', "[Server-Manager] Plugin " + getDescription().getVersion() + " erfolgreich geladen."));
 	}
 	
