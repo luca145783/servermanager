@@ -11,7 +11,7 @@ public class Main extends JavaPlugin {
 		
 	public void onEnable() {
 		loadConfiguration();
-		console.sendMessage(ChatColor.translateAlternateColorCodes('&', "[Server-Manager] Plugin " + getDescription().getVersion() + " erfolgreich geladen."));
+		console.sendMessage(ChatColor.translateAlternateColorCodes('&', "[" + getDescription().getName() + "] v" + getDescription().getVersion() + " erfolgreich geladen."));
 	}
 	
 	public void loadConfiguration() {
