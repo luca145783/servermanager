@@ -10,7 +10,7 @@ public class Main extends JavaPlugin {
 	public static ConsoleCommandSender console = Bukkit.getConsoleSender();
 	
 	public void onEnable() {
-		console.sendMessage(ChatColor.translateAlternateColorCodes('&', "[ServerManager] Plugin " + getDescription().getVersion() + " erfolgreich geladen."));
+		console.sendMessage(ChatColor.translateAlternateColorCodes('&', "[Server-Manager] Plugin " + getDescription().getVersion() + " erfolgreich geladen."));
 	}
 	
 }
